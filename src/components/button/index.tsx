@@ -14,6 +14,7 @@ const StyledButton = styled.button<any>`
   background-color: ${(props) => (props.outline ? "white" : "red")};
   border: ${(props) => (props.outline ? "1px solid red" : "0px")};
   color: ${(props) => (props.outline ? "red" : "white")};
+  padding: 10px;
 `;
 
 const Button: FC<IButtonProps> = ({
